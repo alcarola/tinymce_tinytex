@@ -5,11 +5,11 @@ This is a trivial edit of the oumaths TinyMCE (Moodle) plugin by The Open Univer
 
 ## Installation
 
-The plugin assumes that you have MathJax set up, e.g., according to [these instructions](https://github.com/maths/moodle-qtype_stack/blob/master/doc/en/Developer/Mathjax.md).
+1. The plugin assumes that you have MathJax set up, e.g., according to [these instructions](https://github.com/maths/moodle-qtype_stack/blob/master/doc/en/Developer/Mathjax.md).
 
-The next step is to either [download the zip file](https://github.com/alcarola/tinymce-tinytex/zipball/master), unzip it, and place it in the directory `moodle\lib\editor\tinymce\plugin`. (You will need to rename the directory `tinymce-tinytex -> tinytex`.) Alternatively, get the code using git by running the following command in the top level folder of your Moodle install: `git clone git://github.com/alcarola/tinymce-tinytex.git lib/editor/tinymce/plugins`.
+2. The next step is to either [download the zip file](https://github.com/alcarola/tinymce_tinytex/zipball/master), unzip it, and place it in the directory `moodle\lib\editor\tinymce\plugin`. (You will need to rename the directory `tinymce_tinytex -> tinytex`.) Alternatively, get the code using git by running the following command in the top level folder of your Moodle install: `git clone git://github.com/alcarola/tinymce_tinytex.git lib/editor/tinymce/plugins`.
 
-Now go to the page Site administration -> Notifications in your Moodle install, as Administrator or similar. That should be it.
+3. Now go to the page Site administration -> Notifications in your Moodle install, as Administrator or similar. That should be it.
 
 
 ## Known issues
@@ -21,5 +21,5 @@ The plugin is roughly of Beta-level maturity. Fixes are invited for the followin
 
 ## License
 
-Stack is Licensed under the [GNU General Public, License Version 3](https://github.com/alcarola/tinymce-tinytex/blob/master/COPYING.txt) or later.
+Stack is Licensed under the [GNU General Public, License Version 3](https://github.com/alcarola/tinymce_tinytex/blob/master/COPYING.txt) or later.
 

@@ -28,7 +28,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2014012000;
+$plugin->version   = 2014012005;
 $plugin->requires  = 2012112900;
 $plugin->cron      = 0;
 $plugin->component = 'tinymce_tinytex';

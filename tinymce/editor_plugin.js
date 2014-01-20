@@ -53,7 +53,7 @@
                 ed.windowManager.open({
                     file : ed.getParam("moodle_plugin_base") + 'tinytex/dialog.php?lang=' + lang + initparams,
                     width : 550,
-                    height : 382,
+                    height : 350,
                     inline : 1
                 }, {
                     plugin_url : url // Plugin absolute URL

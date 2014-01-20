@@ -44,6 +44,9 @@ $header = preg_replace('~<div class="skiplinks">.*?</div>~', '', $header);
 $header = str_replace('</head>', '<style type="text/css">
         #page-content .region-content { overflow: visible }
         </style>', $header);
+
+// Remove Moodle theme css
+$header = preg_replace('<link rel=.*?/>', '', $header);
 echo $header;
 
 $ok = strlen(trim($eq)) > 0;

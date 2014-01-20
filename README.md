@@ -20,8 +20,9 @@ The code is a trivial edit of the oumaths TinyMCE plugin by The Open University.
 
 The plugin is roughly of Beta-level maturity. Fixes are invited for (in particular) the following issues:
 
-1. Sometimes text is typed with a formula at the end of the line, using the plugin, initially all seems fine. But then if the formula at the end of the line is edited, again using the plugin, changing it from inline to displayed or vice versa, the insert button needs to be clicked twice for the formula editor window to close. When the window is finally closed, the formula gets placed at the wrong place, namely at the beginning of the line, pushing the text part (which used to be to the left of the formula) down one line.
+1. I have not observed this for a while: Sometimes text is typed with a formula at the end of the line, using the plugin, initially all seems fine. But then if the formula at the end of the line is edited, again using the plugin, changing it from inline to displayed or vice versa, the insert button needs to be clicked twice for the formula editor window to close. When the window is finally closed, the formula gets placed at the wrong place, namely at the beginning of the line, pushing the text part (which used to be to the left of the formula) down one line.
 
+2. The layout of the preview seems to depend on the current moodle theme, so things can get misaligned.
 
 ## License
 

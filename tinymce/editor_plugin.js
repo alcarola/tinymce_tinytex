@@ -36,6 +36,7 @@
 
                 // If your cursor is inside \( \) or \[ \] tags then remember
                 // the settings and include that in the iframe URL.
+		// Otherwise default to inline
                 var initparams = '';
                 t.containedequation = t.get_contained_equation();
                 if (t.containedequation) {
@@ -44,8 +45,10 @@
                     if (t.containedequation.texattributes && t.containedequation.texattributes.indexOf('mode="inline"') != -1) {
                         initparams += '&inline=1';
                     }
-                }
-
+                } else {
+		    initparams += '&inline=1';
+		}
+	
                 lang = ed.getParam('language');
                 ed.windowManager.open({
                     file : ed.getParam("moodle_plugin_base") + 'tinytex/dialog.php?lang=' + lang + initparams,
